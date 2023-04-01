@@ -1,0 +1,13 @@
+div.text-wrap > p {
+    color: blueviolet;
+    font-size: 20px;
+    text-align: justify;
+}
+div.text-wrap > h1 {
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;   
+}
+p:nth-child(2){
+    text-decoration: underline;
+}

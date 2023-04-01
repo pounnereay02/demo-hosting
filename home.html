@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container {
+            width: 400px;
+            height: 500px;
+            background-color: aquamarine;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: row;
+        }
+        div.container > div.box:nth-child(1) {
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+            border-radius: 50%;
+            margin: auto;
+        }
+        div.container > div.box:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            background-color: cornflowerblue;
+            border-radius: 50%;
+            margin: auto;
+        }
+        div.container-1 {
+            width: 600px;
+            height: 500px;
+            background-color: darkmagenta;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: row;
+        }
+        div.container-1 > div.box-1:nth-child(1) {
+            width: 150px;
+            height: 150px;
+            background-color: gold;
+            margin: 8px;
+            padding: 16px;
+        }
+        div.container-1 > div.box-1:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            background-color: darkseagreen;
+            margin: 8px;
+            padding: 16px;
+        }
+        div.container-1 > div.box-1:nth-child(3) {
+            width: 150px;
+            height: 150px;
+            background-color: lightgreen;
+            margin: 8px;
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="container-1">
+        <div class="box-1"></div>
+        <div class="box-1"></div>
+        <div class="box-1"></div>
+    </div>
+</body>
+</html>
